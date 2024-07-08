@@ -3,7 +3,7 @@
 //! Note that this is not currently customized for Windows, where it would be
 //! more useful to sort and deduplicate case-insensitively and, most of all, to
 //! always show the name with whatever specific casing it is represented with
-//! in the environment.
+//! in the environment, even if given on the command line in another case.
 
 fn print_one_var(name: &str, value: &str) {
     println!("{name}={value}");
